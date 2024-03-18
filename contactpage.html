@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Home Page</title>
+    <style>
+        body {
+            padding: 10px;
+            margin: 20px;
+            background: linear-gradient(to top left, #ff8d02, #f35005); 
+            color: #fcf8fc;
+            text-align: center;
+            font-family: cursive;
+        }
+        header {
+            background: linear-gradient(to bottom right, #943b12, #472f12);
+            color: #fcf8fc;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        section {
+            padding: 25px;
+            margin: 10px auto;
+            background: linear-gradient(to bottom right, #943b12, #472f12);
+            border-radius: 10px;
+            max-width: 1000px;
+        }
+        h2 {
+            color: #fcf8fc;
+        }
+        p {
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    
+    <h2>Contact Us</h2>
+    <form action="mailto:your_email@example.com" method="post" enctype="text/plain">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br>
+        <input type="submit" value="Submit">
+    </form>
+    <h2>Contact Information</h2>
+    <div>
+        <p><strong>Email:</strong> your_email@example.com</p>
+        <p><strong>Contact Number:</strong> +1234567890</p>
+        <p><strong>LinkedIn Profile:</strong> <a href="https://www.linkedin.com/in/your-profile" target="_blank">Your LinkedIn Profile</a></p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects Showcase - Grid Layout</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .project-card {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+        }
+        .project-image {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="project-card">
+            <img src="project1.jpg" alt="Project 1" class="project-image">
+            <h3>Project 1</h3>
+            <p>Description of Project 1</p>
+        </div>
+        <div class="project-card">
+            <img src="project2.jpg" alt="Project 2" class="project-image">
+            <h3>Project 2</h3>
+            <p>Description of Project 2</p>
+        </div>
+        <!-- Add more project cards as needed -->
+    </div>
+</body>
+</html>
